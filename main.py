@@ -2,7 +2,7 @@ import telebot
 from telebot import types
 import json
 import requests
-
+# https://t.me/horoscope_testBot
 bot = telebot.TeleBot('5981017496:AAF0oIVjBQJBfHjITj6asaJq0If0GEXThCQ')
 def get_signs():
     signs = {
